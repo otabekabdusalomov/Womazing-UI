@@ -500,4 +500,58 @@ img {
 .hero__line {
   margin-left: 260px;
   padding-top: 126px;
+}
+
+.myteam__list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+.myteam__item + .myteam__item {
+  margin-left: 30px;
+}
+.myteam__heading {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 110%;
+  letter-spacing: 0.02em;
+  color: #000000;
+  padding-bottom: 92px;
+}
+.myteam__tittle {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #000000;
+  padding-top: 24px;
+  padding-bottom: 7px;
+}
+.myteam__box {
+  text-align: center;
+}
+.myteam__span {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #998E78;
+}
+.myteam__button {
+  margin-top: 62px;
+  padding: 22px 50px;
+  margin-bottom: 130px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 138.9%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #6E9C9F;
+  border: 1px solid #6E9C9F;
+  margin-left: 433px;
 }/*# sourceMappingURL=main.css.map */
