@@ -385,6 +385,7 @@ img {
 
 .header {
   padding-top: 54px;
+  padding-bottom: 41px;
 }
 .header__container {
   display: flex;
@@ -440,4 +441,63 @@ img {
   color: #000000;
   margin-left: 9px;
   padding-right: 67px;
+}
+
+.button {
+  flex-direction: row;
+  align-items: center;
+  padding: 22px 50px;
+  gap: 10px;
+  width: 243px;
+  height: 68px;
+  background: #6E9C9F;
+  border: none;
+  transition: 0.3s;
+}
+.button:hover {
+  opacity: 0.8;
+}
+.button:active {
+  opacity: 0.4;
+}
+
+.hero {
+  background-image: url(../img/woman-group.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  height: 100vh;
+  margin-bottom: 130px;
+}
+.hero__box {
+  max-width: 563px;
+  padding-top: 145px;
+}
+.hero__heading {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 110%;
+  letter-spacing: 0.02em;
+  color: #000000;
+  padding-bottom: 45px;
+}
+.hero__desc {
+  max-width: 385px;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: right;
+  letter-spacing: 0.02em;
+  color: #000000;
+  padding-bottom: 52px;
+}
+.hero__icon {
+  margin-left: 70px;
+}
+.hero__line {
+  margin-left: 260px;
+  padding-top: 126px;
 }/*# sourceMappingURL=main.css.map */
