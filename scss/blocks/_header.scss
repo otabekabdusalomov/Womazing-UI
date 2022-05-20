@@ -1,1 +1,17 @@
-//BU YERDA SAYTIMIZNING HEADER QISMIGA ISHLOV BERILADI
+.header{
+    padding-top: 54px;
+    &__container{
+        display: flex;
+        align-items: center;
+    }
+    &__logo{
+        flex-shrink: 0;
+        transition: 0.3s;
+    }
+    &__logo:hover{
+        opacity: 0.8;
+    }
+    &__logo:active{
+        opacity: 0.4;
+    }
+}
