@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -601,4 +602,62 @@ img {
   line-height: 140%;
   letter-spacing: 0.02em;
   color: #000000;
+}
+.services__paragraf {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 110%;
+  letter-spacing: 0.02em;
+  color: #000000;
+  margin-top: 130px;
+}
+
+.komanda {
+  background-image: url(../../img/Фотогалерея.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.komanda__heading {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 110%;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.komanda__box {
+  max-width: 255px;
+  margin-left: auto;
+  padding-top: 78px;
+}
+.komanda__tittle {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #000000;
+  padding-bottom: 28px;
+}
+.komanda__desc {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #000000;
+  padding-bottom: 28px;
+}
+.komanda__link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #6E9C9F;
 }/*# sourceMappingURL=main.css.map */
