@@ -669,6 +669,14 @@ img {
 }
 .footer__container {
   display: flex;
+  vertical-align: middle;
+}
+.footer__footernav {
+  margin: 0;
+  padding: 0;
+}
+.footer__footernav-list {
+  margin-left: 144px;
 }
 .footer__box-desc {
   max-width: 244px;
@@ -677,4 +685,21 @@ img {
 .footer__center-list {
   display: flex;
   align-items: center;
+}
+.footer__center-list {
+  list-style-type: none;
+  flex-direction: column;
+  margin-top: 39px;
+}
+.footer__center-item {
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+.footer__center-link {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #000000;
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */

@@ -4,8 +4,15 @@
   padding-top: 101px;
   &__container {
     display: flex;
+    vertical-align: middle;
   }
-
+  &__footernav {
+    margin: 0;
+    padding: 0;
+  }
+  &__footernav-list {
+    margin-left: 144px;
+  }
   &__box-desc {
     max-width: 244px;
     padding-top: 70px;
@@ -13,5 +20,23 @@
   &__center-list {
     display: flex;
     align-items: center;
+  }
+
+  &__center-list {
+    list-style-type: none;
+    flex-direction: column;
+    margin-top: 39px;
+  }
+  &__center-item {
+    margin-left: 25px;
+    margin-bottom: 10px;
+  }
+  &__center-link {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #000000;
+    text-decoration: none;
   }
 }
