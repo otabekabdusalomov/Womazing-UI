@@ -615,7 +615,7 @@ img {
 }
 
 .komanda {
-  background-image: url(../../img/Фотогалерея.png);
+  background-image: url(../img/Фотогалерея.png);
   background-repeat: no-repeat;
   height: 100vh;
 }
@@ -659,5 +659,22 @@ img {
   font-size: 17px;
   line-height: 140%;
   letter-spacing: 0.02em;
-  color: #6E9C9F;
+  color: #6e9c9f;
+}
+
+.footer {
+  background: #f1eadc;
+  padding-bottom: 174px;
+  padding-top: 101px;
+}
+.footer__container {
+  display: flex;
+}
+.footer__box-desc {
+  max-width: 244px;
+  padding-top: 70px;
+}
+.footer__center-list {
+  display: flex;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */

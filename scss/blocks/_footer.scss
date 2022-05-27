@@ -1,1 +1,17 @@
-//BU YERDA SYTIMIZNING FOOTER QISMIGA ISHLOV BERILADI
+.footer {
+  background: #f1eadc;
+  padding-bottom: 174px;
+  padding-top: 101px;
+  &__container {
+    display: flex;
+  }
+
+  &__box-desc {
+    max-width: 244px;
+    padding-top: 70px;
+  }
+  &__center-list {
+    display: flex;
+    align-items: center;
+  }
+}
